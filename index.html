@@ -12,8 +12,8 @@
 <body>
 <div class="container">
     <header>
-<form>
-    <input type="search" placeholder="Enter a city..." required class="search-input" />
+<form id="search-form">
+    <input type="search" placeholder="Enter a city..." required class="search-input" id="search-input" />
     <input type="submit" value="search" class="search-button" />
 </form>
 <br />
@@ -22,7 +22,7 @@
     <main>
           <div class="city-data">
             <div>
-    <h1>
+    <h1 id="city-element" >
         Tulsa
     </h1>
     <p>
@@ -44,5 +44,6 @@
        This project was coded by <a href="https://github.com/jmapplebaum" target="_blank">Jennah  Applebaum</a>, is <a href="https://github.com/jmapplebaum/Weather-Application" target="_blank">open-sourced on GitHub</a> and <a href="https://weather-app-jmapplebaum.netlify.app/" target="_blank">hosted on Netlify </a>
     </footer>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
