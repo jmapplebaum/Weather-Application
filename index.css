@@ -3,7 +3,8 @@ body {
   font-family: "Roboto Flex", sans-serif;
 }
 h1 {
-  font-size: 48px;
+  font-size: 52px;
+  line-height: 36px;
   margin-bottom: 0px;
   margin-top: 5px;
 }
@@ -13,8 +14,12 @@ p {
   font-weight: 100;
   line-height: 24px;
 }
+header {
+    margin-bottom: 50px;
+}
 footer {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 100;
   text-align: center;
 }
 a,
@@ -40,3 +45,40 @@ hr {
   padding: 40px 25px;
 }
 
+.search-input,
+.search-button {
+  border-radius: 5px;
+  border-style: none;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 0px;
+  padding: 15px;
+}
+.search-input {
+  background-color: rgba(138, 229, 176, 30%);
+  color: #918a84;
+  width: 75%;
+}
+.search-button {
+  background-color: #7edae6;
+  color: white;
+}
+.city-data {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+.current-temperature {
+  font-size: 100px;
+  font-weight: 600;
+}
+.emoji {
+  font-size: 48px;
+}
+.unit {
+  position: relative;
+  top: -42px;
+  font-size: 36px;
+  font-weight: 300;
+}
