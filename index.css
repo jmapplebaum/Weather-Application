@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(138, 229, 176, 70%);
+  font-family: "Roboto Flex", sans-serif;
+}
+h1 {
+  font-size: 48px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+p {
+  color: #918a84;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 24px;
+}
+footer {
+  font-size: 12px;
+  text-align: center;
+}
+a,
+strong {
+  color: #ffb2aa;
+  text-decoration: none;
+}
+strong {
+  font-weight: 600;
+}
+hr {
+  border-color: rgba(126, 218, 230, 50%);
+  border-width: 1px;
+  border-style: solid;
+}
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 7px 8px rgba(65, 50, 100, 0.08);
+  display: block;
+  margin: 60px auto;
+  max-width: 650px;
+  padding: 40px 25px;
+}
+
