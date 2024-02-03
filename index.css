@@ -14,9 +14,6 @@ p {
   font-weight: 100;
   line-height: 24px;
 }
-header {
-    margin-bottom: 50px;
-}
 footer {
   font-size: 14px;
   font-weight: 100;
@@ -25,7 +22,7 @@ footer {
 a,
 strong {
   color: #ffb2aa;
-  text-decoration: none;
+  
 }
 strong {
   font-weight: 600;
@@ -63,6 +60,8 @@ hr {
 .search-button {
   background-color: #7edae6;
   color: white;
+  margin-left: 5px;
+   padding: 15px 30px;
 }
 .city-data {
   display: flex;
