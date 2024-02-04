@@ -7,6 +7,9 @@ let humidityElement = document.querySelector("#humidity");
 let windSpeedElement = document.querySelector("#wind-speed");
 let timeElement = document.querySelector("#current-time");
 let date = new Date(response.data.time * 1000)
+let emojiElement = document.querySelector("#emoji");
+
+emojiElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="emoji" />`;
     
     cityElement.innerHTML = response.data.city;
     timeElement.innerHTML = formatDate(date);

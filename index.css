@@ -61,7 +61,7 @@ hr {
   background-color: #7edae6;
   color: white;
   margin-left: 5px;
-   padding: 15px 30px;
+  padding: 15px 30px;
 }
 .city-data {
   display: flex;
@@ -73,7 +73,8 @@ hr {
   font-weight: 600;
 }
 .emoji {
-  font-size: 48px;
+  width:88px;
+  height: 88px;
 }
 .unit {
   position: relative;
