@@ -28,7 +28,7 @@ strong {
   font-weight: 600;
 }
 hr {
-  border-color: rgba(126, 218, 230, 50%);
+  border-color: rgba(153, 144, 221, 40%);
   border-width: 1px;
   border-style: solid;
 }
@@ -58,7 +58,7 @@ hr {
   width: 75%;
 }
 .search-button {
-  background-color: #7edae6;
+  background-color: #9990dd;
   color: white;
   margin-left: 5px;
   padding: 15px 30px;
@@ -73,8 +73,11 @@ hr {
   font-weight: 600;
 }
 .emoji {
-  width:88px;
-  height: 88px;
+  height: 100px;
+  width:100px;
+  position: relative;
+  top: 15px;
+  
 }
 .unit {
   position: relative;
