@@ -1,50 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
     <title>Weather App by Jennah Applebaum</title>
-</head>
-<body>
-<div class="container">
-    <header>
-<form id="search-form">
-    <input type="search" placeholder="Enter a city..." required class="search-input" id="search-input" />
-    <input type="submit" value="search" class="search-button" />
-</form>
-<br />
-<hr />
-    </header>
-    <main>
-          <div class="city-data">
-            <div>
-    <h1 id="city-element" >
-    </h1>
-    <p>
-       <span id="current-time"></span>
-       <span id="condition"></span>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <form id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-input"
+            id="search-input"
+          />
+          <input type="submit" value="search" class="search-button" />
+        </form>
         <br />
-        Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong>
-    </p>
-    </div>
-    <div>
-       <span id="emoji"></span>
-      <span class="current-temperature" id="current-temperature" ></span>
-      <span class="unit">°F</span>
-    </div>
-    </div>
-    <hr />
-<br />
-    </main>
-    <footer>
-       This project was coded by <a href="https://github.com/jmapplebaum" target="_blank">Jennah  Applebaum</a>, is <a href="https://github.com/jmapplebaum/Weather-Application" target="_blank">open-sourced on GitHub</a> and <a href="https://weather-app-jmapplebaum.netlify.app/" target="_blank">hosted on Netlify </a>
-    </footer>
+        <hr />
+      </header>
+      <main>
+        <div class="city-data">
+          <div>
+            <h1 id="city-element"></h1>
+            <p>
+              <span id="current-time"></span>
+              <span id="condition"></span>
+              <br />
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
+            </p>
+          </div>
+          <div>
+            <span id="emoji"></span>
+            <span class="current-temperature" id="current-temperature"></span>
+            <span class="unit">°F</span>
+          </div>
+        </div>
+        <div class="weather-forecast">
+          <div class="forecast-day">
+            <div class="forecast-date">Tue</div>
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-day.png"
+              class="forecast-emoji"
+            />
+            <div class="forecast-temperatures">
+              <div class="forecast-temperature"></div>
+              <div class="forecast-temperature">
+                59°
+                <span class="forecast-low">38º</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <br />
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/jmapplebaum" target="_blank"
+          >Jennah Applebaum</a
+        >, is
+        <a
+          href="https://github.com/jmapplebaum/Weather-Application"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://weather-app-jmapplebaum.netlify.app/" target="_blank"
+          >hosted on Netlify
+        </a>
+      </footer>
     </div>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

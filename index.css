@@ -22,7 +22,6 @@ footer {
 a,
 strong {
   color: #ffb2aa;
-  
 }
 strong {
   font-weight: 600;
@@ -74,14 +73,24 @@ hr {
 }
 .emoji {
   height: 100px;
-  width:100px;
+  width: 100px;
   position: relative;
   top: 15px;
-  
 }
 .unit {
   position: relative;
   top: -42px;
   font-size: 36px;
   font-weight: 300;
+}
+.weather-forecast {
+  display: flex;
+  text-align: center;
+}
+.forecast-emoji {
+  display: block;
+  width: 60px;
+}
+.forecast-low {
+  opacity: 50%;
 }
