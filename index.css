@@ -85,10 +85,12 @@ hr {
 }
 .weather-forecast {
   display: flex;
+  justify-content: space-evenly;
   text-align: center;
 }
 .forecast-emoji {
   display: block;
+  margin: 0 auto;
   width: 60px;
 }
 .forecast-low {
